@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("I am Dan. Hear me roar.");
+        Console.WriteLine("Bread is ready.");
+        Console.WriteLine("Who is the bread for?");
+        string name = Console.ReadLine();
+        Console.WriteLine($"Noted: {name} got bread.");
     }
 }
